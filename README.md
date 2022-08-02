@@ -20,8 +20,6 @@ python pytorch-transformers/examples/run_generation.py
     --model_name_or_path=transfo-xl-wt103
 ```
 
-
-
 [XLNet](xlnet.py)
 - Text generation steps:
 ```
@@ -53,6 +51,11 @@ python pytorch-transformers/examples/run_generation.py
 
 
 [Google’s BERT](bert.py)
+- Masked language modeling steps:
+1. Text tokenisation.
+2. Convert tokesn into a sequence of integers.
+3. Use bert's masked language model e.g Pytorch's `BertForMaskedLM`.
+4. Get predictions.
 
 
 
@@ -60,9 +63,7 @@ python pytorch-transformers/examples/run_generation.py
 
 
 ## Word Embeddings
-ELMo
-Flair
+[ELMo](elmo.py)
 
-## Other Pretrained Models
-StanfordNLP
- 
+[Flair](flair.py)
+

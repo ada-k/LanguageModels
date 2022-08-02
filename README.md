@@ -7,7 +7,8 @@ Use cases:
 4. Text rewriting/Paraphrasing.
 5. Text clustering.
 6. Embeddings generation.
-7. 
+7. Translation.
+8. 
 
 ## Multi-Purpose NLP Models
 
@@ -44,7 +45,12 @@ python pytorch-transformers/examples/run_generation.py
     --model_name_or_path=gpt2
 ```
 
-[ULMFiT](ulmfit.py)
+[Universal Language Model Fine Tuning - ULMFiT](ulmfit.py)\
+Steps:
+1. Data prep.
+2. Creating LM Model & fine-tuning it with the pre-trained model.
+3. Get predictions with the fine tuned model.
+
 
 
 [Transformer](transformer.py)

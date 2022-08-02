@@ -51,7 +51,7 @@ Steps:
 2. Creating LM Model & fine-tuning it with the pre-trained model.
 3. Get predictions with the fine tuned model.
 
-
+Implementations in Spacy and Fastai.
 
 [Transformer](transformer.py)
 
@@ -65,11 +65,13 @@ Steps:
 
 
 
-
-
-
 ## Word Embeddings
-[ELMo](elmo.py)
+[Embeddings from Language Model - ELMo](elmo.py)
+- NLP framework by AllenNLP. Word vectors are calculated using a 2-layer bidirectional language model (biLM). Each layer comprises back &forward pass.
+- Represents word embeddings using complete sentence, thus, capture the context of the word used in the sentence unlike Glove and Word2Vec.
+
 
 [Flair](flair.py)
+-  Captures latent syntattic-semantic info from text.
+-  Gives word embeddings based on its sorrounding text.
 

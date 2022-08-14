@@ -8,7 +8,6 @@ Use cases:
 5. Text clustering.
 6. Embeddings generation.
 7. Translation.
-8. 
 
 ## Multi-Purpose NLP Models
 
